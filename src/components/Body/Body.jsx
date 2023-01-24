@@ -3,8 +3,10 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Header/Navbar";
 import Avail_Integration from "./Avail_Integration";
+import Cartoon_section from "./Cartoon_section";
 import Center_Section from "./Center_Section";
 import Featured_Section from "./Featured_Section";
+import Lower_Section from "./Lower_Section";
 import MidContent from "./MidContent";
 import Top_Content from "./Top_Content";
 
@@ -23,6 +25,8 @@ function Body() {
         <MidContent />
         <Center_Section />
         <Avail_Integration />
+        <Lower_Section />
+        <Cartoon_section />
         {/* <Slider />
         <Counting_Number />
         <OurProjects />
