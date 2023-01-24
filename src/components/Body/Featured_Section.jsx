@@ -13,7 +13,7 @@ import img5 from "../assets/images/uni.webp";
 function Featured_Section() {
   return (
     <>
-      <div className="md:w-[75%] md:flex items-center justify-around md:mt-24 w-[90%] m-auto">
+      <div className="md:w-[80%] md:flex items-center justify-around md:mt-24 w-[90%] m-auto">
         <div className="md:flex flex-wrap  ">
           <div className="w-[200px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
@@ -65,7 +65,7 @@ function Featured_Section() {
           </div>
         </div>
       </div>
-      <div className="md:w-[75%] w-[90%] m-auto">
+      <div className="md:w-[80%] w-[90%] m-auto">
         <div className="md:mt-24  mt-8 md:text-[23px] text-[19px] text-center font-bold text-[#131a4c]">
           Feature on
         </div>

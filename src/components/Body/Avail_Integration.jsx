@@ -15,7 +15,7 @@ function Avail_Integration() {
   return (
     <div className="bg-[#F7FAFF]">
       <div
-        className="md:flex md:w-[75%] w-[90%] m-auto items-start  py-[80px]"
+        className="md:flex md:w-[80%] w-[95%] m-auto items-start  py-[80px]"
         style={{
           backgroundImage: `url(${background})`,
           backgroundSize: "cover",

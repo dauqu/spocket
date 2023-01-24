@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Top_Content() {
   return (
     <div className="bg-[#F7FAFF] mt-[50px] ">
-      <div className="md:w-[75%] pt-24 m-auto md:flex ">
+      <div className="md:w-[80%] pt-24 m-auto md:flex ">
         <div className="w-[50%] m-auto">
           <div className="md:text-[50px] font-extrabold text-[#131a4c]">
             Discover top
