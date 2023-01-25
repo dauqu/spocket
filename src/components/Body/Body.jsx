@@ -24,8 +24,8 @@ function Body() {
         <Featured_Section />
         <MidContent />
         <Center_Section />
-        {/* <Avail_Integration /> */}
-        {/* <Lower_Section /> */}
+        <Avail_Integration />
+        <Lower_Section />
         {/* <Cartoon_section /> */}
         {/* <Footer /> */}
       </motion.div>

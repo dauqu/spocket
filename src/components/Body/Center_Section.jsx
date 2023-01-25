@@ -107,16 +107,20 @@ function Center_Section() {
           }}
         >
           <div className="mt-12 md:w-[75%] w-[90%] md:mt-12   m-auto p-8   ">
-            <div className="md:w-[80%] md:text-[40px] text-[17px] md:font-extrabold font-bold m-auto text-center flex justify-center">
-              <span className="mr-4 underline text-[#8144E5]">10x</span>your
+            <div className="md:w-[80%] md:text-[40px] text-[23px] md:font-extrabold font-bold m-auto text-center flex justify-center">
+              <span className="md:mr-4  underline text-[#8144E5]">10x</span>your
               Dropshipping business with Spocket
             </div>
             <div className="md:mt-24 mt-8 ">
-              <div className=" md:flex justify-evenly items-center">
-                <div className="cardd flex-wrap w-[300px] ">
+              <div className="flex flex-wrap justify-evenly items-center">
+                <div className="cardd  w-[300px] ">
                   <div className="flex items-center">
                     <div className="w-[100%] m-auto">
-                      <img src={free} alt="" className="w-[70%] " />
+                      <img
+                        src={free}
+                        alt=""
+                        className="w-[70%] md:m-0 m-auto "
+                      />
                     </div>
                   </div>
                   <div className="text-left  text-[20px] md:m-2 m-auto font-bold text-[#222940] ">
@@ -127,10 +131,14 @@ function Center_Section() {
                     details, or registration fee
                   </div>
                 </div>
-                <div className="cardd flex-wrap w-[300px] ">
+                <div className="cardd  w-[300px] ">
                   <div className="flex items-center">
                     <div className="w-[100%] m-auto">
-                      <img src={txt} alt="" className="w-[70%] " />
+                      <img
+                        src={txt}
+                        alt=""
+                        className="w-[70%] md:m-0 m-auto "
+                      />
                     </div>
                   </div>
                   <div className="text-left  text-[20px] md:m-2 m-auto font-bold text-[#222940] ">
@@ -141,10 +149,14 @@ function Center_Section() {
                     represents your brand.
                   </div>
                 </div>
-                <div className="cardd flex-wrap w-[300px] ">
+                <div className="cardd  w-[300px] ">
                   <div className="flex items-center">
                     <div className="w-[100%] m-auto">
-                      <img src={flag} alt="" className="w-[70%] " />
+                      <img
+                        src={flag}
+                        alt=""
+                        className="w-[70%] md:m-0 m-auto "
+                      />
                     </div>
                   </div>
                   <div className="text-left  text-[20px] md:m-2 m-auto font-bold text-[#222940] ">
@@ -155,10 +167,14 @@ function Center_Section() {
                     high quality winning products.
                   </div>
                 </div>
-                <div className="cardd flex-wrap w-[300px] ">
+                <div className="cardd  w-[300px] ">
                   <div className="flex items-center">
                     <div className="w-[100%] m-auto">
-                      <img src={off} alt="" className="w-[70%] " />
+                      <img
+                        src={off}
+                        alt=""
+                        className="w-[70%] md:m-0 m-auto "
+                      />
                     </div>
                   </div>
                   <div className="text-left  text-[20px] md:m-2 m-auto font-bold text-[#222940] ">
