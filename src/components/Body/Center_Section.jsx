@@ -22,7 +22,7 @@ function Center_Section() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="mt-12 md:w-[75%] w-[90%] md:mt-24    bg-white m-auto p-8 shadow-2xl ">
+          <div className="mt-12 md:w-[75%] w-[95%] md:mt-24    bg-white m-auto p-8 shadow-2xl ">
             <div className="md:w-[80%] m-auto text-center flex justify-center">
               <div className="relative">
                 <div className="  items-center justify-center absolute z-0">
@@ -34,9 +34,9 @@ function Center_Section() {
               </div>
             </div>
             <div className="mt-4">
-              <div className=" md:flex items-center justify-evenly">
+              <div className="flex flex-wrap items-center justify-evenly">
                 <div className=" md:flex items-center">
-                  <div className="cardd w-[200px] ">
+                  <div className="cardd md:w-[200px] w-[180px] md:m-0 m-auto ">
                     <div className="flex items-center">
                       <div className="w-[100%] m-auto">
                         <img src={dots2} alt="" className="w-full" />
@@ -46,12 +46,12 @@ function Center_Section() {
                       Customer purchases products from your online store
                     </div>
                   </div>
-                  <div className="bg-[#F4F5F8] rounded-full">
+                  <div className="bg-[#F4F5F8] w-[40px] md:m-0 m-auto  rounded-full">
                     <BsArrowRightShort size={40} color="#8144E5" />
                   </div>
                 </div>
                 <div className=" md:flex items-center">
-                  <div className="cardd w-[200px] ">
+                  <div className="cardd md:w-[200px] w-[180px] md:m-0 m-auto ">
                     <div className="flex items-center">
                       <div className="w-[100%] m-auto">
                         <img src={dot5} alt="" className="w-full" />
@@ -61,12 +61,12 @@ function Center_Section() {
                       Their order goes directly to your suppliers
                     </div>
                   </div>
-                  <div className="bg-[#F4F5F8] rounded-full">
+                  <div className="bg-[#F4F5F8] w-[40px] md:m-0 m-auto rounded-full">
                     <BsArrowRightShort size={40} color="#8144E5" />
                   </div>
                 </div>
                 <div className=" md:flex items-center">
-                  <div className="cardd w-[200px] ">
+                  <div className="cardd md:w-[200px] w-[180px] md:m-0 m-auto ">
                     <div className="flex items-center">
                       <div className="w-[100%] m-auto">
                         <img src={dot3} alt="" className="w-full" />
@@ -76,12 +76,12 @@ function Center_Section() {
                       Your suppliers ship the product to your customer
                     </div>
                   </div>
-                  <div className="bg-[#F4F5F8] rounded-full">
+                  <div className="bg-[#F4F5F8] w-[40px] md:m-0 m-auto rounded-full">
                     <BsArrowRightShort size={40} color="#8144E5" />
                   </div>
                 </div>
                 <div className=" md:flex items-center">
-                  <div className="cardd w-[200px] ">
+                  <div className="cardd md:w-[200px] w-[180px] md:m-0 m-auto ">
                     <div className="flex items-center">
                       <div className="w-[100%] m-auto">
                         <img src={dot4} alt="" className="w-full" />

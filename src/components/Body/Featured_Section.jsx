@@ -13,9 +13,9 @@ import img5 from "../assets/images/uni.webp";
 function Featured_Section() {
   return (
     <>
-      <div className="md:w-[80%] md:flex items-center justify-around md:mt-24 w-[90%] m-auto">
-        <div className="md:flex flex-wrap  ">
-          <div className="w-[200px]   text-center ">
+      <div className="md:w-[80%] md:flex items-center justify-around md:mt-24 w-[95%] m-auto">
+        <div className="flex flex-wrap justify-between md:p-2 p-4 ">
+          <div className="md:w-[170px] md:m-4  w-[150px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
               <img src={item6} alt="" className="w-full m-auto" />
             </div>
@@ -23,9 +23,7 @@ function Featured_Section() {
               Sell With Easy method
             </div>
           </div>
-        </div>
-        <div className="md:flex flex-wrap  ">
-          <div className="w-[200px]   text-center ">
+          <div className="md:w-[170px] md:m-4  w-[150px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
               <img src={item5} alt="" className="w-full m-auto" />
             </div>
@@ -33,9 +31,7 @@ function Featured_Section() {
               Up-to-Date Inventory
             </div>
           </div>
-        </div>
-        <div className="md:flex flex-wrap  ">
-          <div className="w-[200px]   text-center ">
+          <div className="md:w-[170px] md:m-4  w-[150px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
               <img src={item} alt="" className="w-full m-auto" />
             </div>
@@ -43,9 +39,7 @@ function Featured_Section() {
               Best Quality Products
             </div>
           </div>
-        </div>
-        <div className="md:flex flex-wrap  ">
-          <div className="w-[200px]   text-center ">
+          <div className="md:w-[170px] md:m-4  w-[150px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
               <img src={item2} alt="" className="w-full m-auto" />
             </div>
@@ -53,9 +47,7 @@ function Featured_Section() {
               Great Profit Margin
             </div>
           </div>
-        </div>
-        <div className="md:flex flex-wrap  ">
-          <div className="w-[200px]   text-center ">
+          <div className="md:w-[170px] md:m-4  w-[150px]   text-center ">
             <div className="w-auto m-auto hover:scale-110 hover:transition-all duration-700">
               <img src={item3} alt="" className="w-full m-auto" />
             </div>
@@ -65,24 +57,24 @@ function Featured_Section() {
           </div>
         </div>
       </div>
-      <div className="md:w-[80%] w-[90%] m-auto">
+      <div className="md:w-[80%] w-[95%] m-auto">
         <div className="md:mt-24  mt-8 md:text-[23px] text-[19px] text-center font-bold text-[#131a4c]">
           Feature on
         </div>
-        <div className="md:flex md:mt-8 mt-6 justify-center ">
-          <div className="flex-wrap w-[150px] md:m-0 m-auto">
+        <div className=" flex flex-wrap md:mt-8 mt-6 justify-evenly ">
+          <div className="flex-wrap w-[150px] md:m-0 m-4">
             <img src={item4} alt="" className="w-full" />
           </div>
-          <div className="flex-wrap w-[150px] md:m-0 m-auto">
+          <div className="flex-wrap w-[150px] md:m-0 m-4">
             <img src={img3} alt="" className="w-full" />
           </div>
-          <div className="flex-wrap w-[150px] md:m-0 m-auto">
+          <div className="flex-wrap w-[150px] md:m-0 m-4">
             <img src={img1} alt="" className="w-full" />
           </div>
-          <div className="flex-wrap w-[150px] md:m-0 m-auto">
+          <div className="flex-wrap w-[150px] md:m-0 m-4">
             <img src={img2} alt="" className="w-full" />
           </div>
-          <div className="flex-wrap w-[150px] md:m-0 m-auto">
+          <div className="flex-wrap w-[150px] md:m-0 m-4">
             <img src={img5} alt="" className="w-full" />
           </div>
         </div>

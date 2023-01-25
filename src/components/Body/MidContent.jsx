@@ -13,7 +13,7 @@ function MidContent() {
           <img src={bg} alt="" />
         </div>
         <div className="md:w-[47%] w-full     ">
-          <div className="font-extrabold text-[35px] text-[#131a4c]">
+          <div className="font-extrabold md:text-[35px] text-[24px] text-[#131a4c]">
             Find winning dropshipping products
           </div>
           <div className="text-[#131a4c] mt-6 leading-8">
@@ -31,7 +31,7 @@ function MidContent() {
       <div className="  md:w-[85%] w-full   justify-center md:mt-16 m-auto p-4">
         <div className="md:flex flex-wrap items-center justify-between md:mt-24 mt-8  m-auto  md:w-[85%] w-[90%]   ">
           <div className="md:w-[48%]  w-full m-auto">
-            <div className="font-bold  md:text-[35px] text-[20px]">
+            <div className="font-bold  md:md:text-[35px] text-[24px] ">
               Try the products yourself
             </div>
             <div className="  text-[17px] leading-8 md:mt-6 mt-4 text-[#131a4c] ">
@@ -56,7 +56,7 @@ function MidContent() {
           <img src={bg4} alt="" />
         </div>
         <div className="md:w-[47%] w-full     ">
-          <div className="font-extrabold text-[35px] text-[#131a4c]">
+          <div className="font-extrabold md:text-[35px] text-[24px] text-[#131a4c]">
             Connect your online store with ease
           </div>
           <div className="text-[#131a4c] mt-6 leading-8">
@@ -78,7 +78,7 @@ function MidContent() {
       <div className="  md:w-[85%] w-full   justify-center md:mt-16 m-auto p-4 md:pb-12 pb-6">
         <div className="md:flex flex-wrap items-center justify-between md:mt-24 mt-8  m-auto  md:w-[85%] w-[90%]   ">
           <div className="md:w-[48%]  w-full m-auto">
-            <div className="font-bold  md:text-[35px] text-[20px]">
+            <div className="font-bold  md:md:text-[35px] text-[24px] ">
             Discover dropshipping suppliers with fast shipping
             </div>
             <div className="  text-[17px] leading-8 md:mt-6 mt-4 text-[#131a4c] ">

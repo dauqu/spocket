@@ -32,8 +32,8 @@ function Avail_Integration() {
           </div>
         </div>
         <div className="md:w-1/2 w-full m-auto">
-          <div className="md:flex flex-wrap items-center justify-evenly">
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+          <div className="flex flex-wrap items-center justify-evenly">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={bg_com} alt="" className=" m-auto" />
               </div>
@@ -48,7 +48,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={shopify} alt="" className=" m-auto" />
               </div>
@@ -63,7 +63,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={felex} alt="" className=" m-auto" />
               </div>
@@ -78,7 +78,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={wix} alt="" className=" m-auto" />
               </div>
@@ -93,7 +93,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={ecwid} alt="" className=" m-auto" />
               </div>
@@ -108,7 +108,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={square} alt="" className=" m-auto" />
               </div>
@@ -123,7 +123,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={woo} alt="" className="w-[68%] m-auto" />
               </div>
@@ -138,7 +138,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={alibaba} alt="" className="w-[68%] m-auto" />
               </div>
@@ -153,7 +153,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={sq2} alt="" className=" w-[68%] m-auto" />
               </div>
@@ -168,7 +168,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={ebay} alt="" className=" w-[68%] m-auto" />
               </div>
@@ -183,7 +183,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={ali} alt="" className=" w-[68%] m-auto" />
               </div>
@@ -198,7 +198,7 @@ function Avail_Integration() {
                 </div>
               </div>
             </div>
-            <div className="p-2 md:w-[200px] mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
+            <div className="p-2 md:w-[200px] w-[150px]  mt-6 bg-white hover:shadow-2xl text-center shadow-xl rounded-md">
               <div className="w-full">
                 <img src={sq2} alt="" className=" w-[68%] m-auto" />
               </div>

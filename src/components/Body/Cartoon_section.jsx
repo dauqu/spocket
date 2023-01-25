@@ -8,7 +8,7 @@ import style from "../assets/images/style.webp";
 function Cartoon_section() {
   return (
     <div
-      className=" bg-[#8D87FA] py-[80px]"
+      className=" bg-[#8D87FA] pt-[80px]"
       style={{
         backgroundImage: `url(${curvBG})`,
         backgroundRepeat: "no-repeat",

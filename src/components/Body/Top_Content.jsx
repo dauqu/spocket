@@ -4,14 +4,13 @@ import { motion } from "framer-motion";
 function Top_Content() {
   return (
     <div className="bg-[#F7FAFF] mt-[50px] ">
-      <div className="md:w-[80%] pt-24 m-auto md:flex ">
-        <div className="w-[50%] m-auto">
-          <div className="md:text-[50px] font-extrabold text-[#131a4c]">
+      <div className="md:w-[80%]  w-[95%]  pt-24 m-auto md:flex ">
+        <div className="md:w-[50%] w-[95%] m-auto">
+          <div className="md:text-[50px] text-[24px]  font-extrabold text-[#131a4c]">
             Discover top
             <span className="text-[#8144E5] underline">
-              {" "}
               dropshipping suppliers
-            </span>{" "}
+            </span>
             of original US/EU products
           </div>
           <div className="mt-8 text-[#131a4c] font-semibold ">
@@ -19,7 +18,7 @@ function Top_Content() {
             thousands of dropshipping suppliers all over the world.
           </div>
           <div className="md:flex items-center  w-full mt-8 ">
-            <div className="w-[70%] shadow-md">
+            <div className="md:w-[70%] w-full shadow-md">
               <input
                 type="text"
                 placeholder="Type here"
@@ -27,8 +26,8 @@ function Top_Content() {
               />
             </div>
 
-            <div className="md:w-[30%] ">
-              <button className="btn  border-none rounded-sm shadow-md bg-[#8144E5] hover:bg-[#8144E5] text-white">
+            <div className="sm:w-[30%] w-full md:mt-0 mt-4 ">
+              <button className="btn  w-full border-none rounded-sm shadow-md bg-[#8144E5] hover:bg-[#8144E5] text-white">
                 Get Started
               </button>
             </div>
@@ -37,7 +36,7 @@ function Top_Content() {
             ✅ No credit card required
           </div>
         </div>
-        <div className="w-[50%] m-auto">
+        <div className="md:w-[50%] w-[100%] m-auto md:mt-0 mt-8">
           <img src={bg} alt="" className="w-full " />
         </div>
       </div>

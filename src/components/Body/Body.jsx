@@ -12,7 +12,7 @@ import Top_Content from "./Top_Content";
 
 function Body() {
   return (
-    <div className="bg-[white]">
+    <div className="bg-[#F7FAFF]">
       <Navbar />
       <motion.div
         initial={{ y: -10, opacity: 0 }}
@@ -24,16 +24,10 @@ function Body() {
         <Featured_Section />
         <MidContent />
         <Center_Section />
-        <Avail_Integration />
-        <Lower_Section />
-        <Cartoon_section />
-        {/* <Slider />
-        <Counting_Number />
-        <OurProjects />
-        <Advertise />
-        <Client_Slider />
-        <LatestNews />
-        <Footer /> */}
+        {/* <Avail_Integration /> */}
+        {/* <Lower_Section /> */}
+        {/* <Cartoon_section /> */}
+        {/* <Footer /> */}
       </motion.div>
     </div>
   );
