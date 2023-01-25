@@ -143,3 +143,54 @@
   line-height: 16px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .sp-product-toy {
+    position: absolute;
+    top: 53%;
+    width: 160px;
+    height: auto;
+  }
+  .sp-product-glasses {
+    position: absolute;
+    left: -3%;
+    top: -9%;
+    right: auto;
+    bottom: auto;
+    width: 176px;
+    height: auto;
+  }
+  .sp-product-frame {
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 34px;
+    width: 111px;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .sp-product-toy {
+    position: absolute;
+    top: 70%;
+    width: 110px;
+    height: auto;
+  }
+  .sp-product-glasses {
+    position: absolute;
+    left: -3%;
+    top: -9%;
+    right: auto;
+    bottom: auto;
+    width: 116px;
+    height: auto;
+  }
+  .sp-product-frame {
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 34px;
+    width: 91px;
+    height: auto;
+  }
+}

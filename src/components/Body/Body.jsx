@@ -27,7 +27,7 @@ function Body() {
         <Avail_Integration />
         <Lower_Section />
         {/* <Cartoon_section /> */}
-        {/* <Footer /> */}
+        <Footer />
       </motion.div>
     </div>
   );
