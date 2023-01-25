@@ -1,0 +1,196 @@
+.sp-section-connect-integration {
+  position: relative;
+  margin-top: 0;
+  padding-top: 64px;
+  padding-bottom: 220px;
+  background-image: url(https://assets.website-files.com/5b32131…/5f23060…_divider-light-grey.svg),
+    url(https://assets.website-files.com/5b32131…/5f29ce8…_world.png),
+    linear-gradient(164deg, #8d88fa, #8780f6);
+  background-position: 0 0, 50% -80%, 0 0;
+  background-size: contain, 75%, auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+}
+.sp-product-glasses {
+  position: absolute;
+  left: 5%;
+  top: -15%;
+  right: auto;
+  bottom: auto;
+  width: 277px;
+  height: auto;
+}
+.sp-product-frame {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  width: 175px;
+  height: auto;
+}
+.sp-product-toy {
+  position: absolute;
+  top: 35%;
+  width: 277px;
+  height: auto;
+}
+
+.w-container {
+  max-width: 1200;
+}
+.sp-container-width {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  max-width: 1200px;
+  padding-right: 24px;
+  padding-left: 24px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.sp-container-centre {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+.sp-section-main-label {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: #e9e6ff;
+  font-family: urbane, sans-serif;
+  color: #8144e5;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.sp-section-title {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-family: urbane, sans-serif;
+  color: #222939;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+}
+.sp-section-title.sp-text-center.sp-white-text {
+  max-width: 28em;
+}
+
+.sp-section-title.sp-text-center {
+  text-align: center;
+}
+.sp-section-title.sp-white-text {
+  color: #fff;
+}
+.sp-primary-button.sp-button-big {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 24px 40px;
+  border-radius: 8px;
+}
+.sp-primary-button {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #8144e5;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  font-family: objektiv-mk1, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .sp-product-toy {
+    position: absolute;
+    top: 53%;
+    width: 160px;
+    height: auto;
+  }
+  .sp-product-glasses {
+    position: absolute;
+    left: -3%;
+    top: -9%;
+    right: auto;
+    bottom: auto;
+    width: 176px;
+    height: auto;
+  }
+  .sp-product-frame {
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 34px;
+    width: 111px;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .sp-product-toy {
+    position: absolute;
+    top: 70%;
+    width: 110px;
+    height: auto;
+  }
+  .sp-product-glasses {
+    position: absolute;
+    left: -3%;
+    top: -9%;
+    right: auto;
+    bottom: auto;
+    width: 116px;
+    height: auto;
+  }
+  .sp-product-frame {
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 34px;
+    width: 91px;
+    height: auto;
+  }
+}

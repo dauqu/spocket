@@ -26,7 +26,7 @@ function Body() {
         <Center_Section />
         <Avail_Integration />
         <Lower_Section />
-        {/* <Cartoon_section /> */}
+        <Cartoon_section />
         <Footer />
       </motion.div>
     </div>
